@@ -1,9 +1,9 @@
-// const markdownIt = require("markdown-it");
-// const md = new markdownIt({
-//   html: true,
-//   breaks: true,
-//   linkify: true
-// });
+const markdownIt = require("markdown-it");
+const md = new markdownIt({
+  html: true,
+  breaks: true,
+  linkify: true
+});
 
 // var implicitFigures = require('markdown-it-implicit-figures');
 
@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
     // eleventyConfig.addPassthroughCopy("assets/css");
     // eleventyConfig.addWatchTarget("assets/css");
     // eleventyConfig.addPassthroughCopy("assets/scripts");
-    // eleventyConfig.addFilter("markdown", (content) => {
-    //   return md.render(content);
-    // });
+    eleventyConfig.addFilter("markdown", (content) => {
+      return md.render(content);
+    });
 };

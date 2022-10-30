@@ -2,20 +2,22 @@
 <html>
   <head>
     <title>{{ title }}</title>
-    {# {% include "meta.njk" %} #}
+    {% include "meta.njk" %}
     {# {% include "scripts.njk" %} #}
     {# <link rel="stylesheet" href="/assets/css/style.css"> #}
     {# <link rel="stylesheet" href="/assets/css/work.css"> #}
 </head>
   <body id="{{ title }}">
-
+    <h1>{{ title }}</h1>
     <main>
       {# <aside>
         {% if description | length %}<div class="description">{{ description | safe }}</div>{% endif %}
         {% if collaborators | length %}<div class="collaborators">with {{ collaborators | safe }}</div>{% endif %}
       </aside> #}
       <section class="gallery">
-        {# {% if gallery | length %}<section class="gallery">{{ gallery | markdown | safe }}</section>{% endif %} #}
+        {# {% if gallery | length %}<section class="gallery">{{ gallery }}</section>{% endif %} #}
+
+        {% if gallery | length %}<section class="gallery">{{ gallery | markdown | safe }}</section>{% endif %}
       </section>
     </main>
 
