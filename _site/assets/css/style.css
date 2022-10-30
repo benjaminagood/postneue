@@ -1,0 +1,9 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
