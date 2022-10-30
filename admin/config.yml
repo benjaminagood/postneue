@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "_site/images/uploads"
+public_folder: "/images/uploads" 
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "projects"
+    slug: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/work.njk" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Date", name: "date", widget: "datetime", default: "", required: true }
+      - { label: "Collaborators", name: "collaborators", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown", required: false }
+      - { label: "Gallery", name: "gallery", widget: "markdown", required: false }
