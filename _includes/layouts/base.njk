@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Benjamin Good</title>
-    {% include "meta.njk" %}
+    {# {% include "meta.njk" %} #}
     {# {% include "scripts.njk" %} #}
     {# <link rel="stylesheet" href="/assets/css/style.css"> #}
   </head>
@@ -11,22 +11,13 @@
 
     <ul>
         {%- for project in collections.projects | reverse -%}
-
-        <li>
-            <a href="{{ project.url }}">
-                {{ project.data.title }}
-            </a>
-        </li>
+            <li>
+                <a href="{{ project.url }}">{{ project.data.title }}</a>
+            </li>
         {%- endfor -%}
-
-
     </ul>
 
 
-
-
-    
-    
     {# {% include "footer.njk" %} #}
 
   </body>
