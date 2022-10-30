@@ -5,7 +5,6 @@
     {% include "meta.njk" %}
     {# {% include "scripts.njk" %} #}
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="">
     <h1>architecture site</h1>
@@ -17,6 +16,22 @@
         <a href="/notebook">Notebook</a>
         <a id="nd" class="theme"></a> #}
     </header>
+
+    {%- for project in collections.projects | reverse -%}
+
+    <ul>
+        <li>
+            <a href="{{ project.url }}">
+                {{ project.data.title }}
+            </a>
+        </li>
+
+
+    </ul>
+
+    {%- endfor -%}
+
+
 
     
     

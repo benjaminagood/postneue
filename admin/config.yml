@@ -9,6 +9,7 @@ collections:
   - name: "projects"
     label: "Projects"
     folder: "projects"
+    create: true # Allow users to create new documents in this collection
     slug: "{{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/project.njk" }
