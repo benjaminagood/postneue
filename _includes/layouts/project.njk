@@ -3,22 +3,21 @@
   <head>
     <title>{{ title }}</title>
     {% include "meta.njk" %}
-    {# {% include "scripts.njk" %} #}
+    {% include "scripts.njk" %}
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-  <body id="{{ title }}">
+  <body class="project">
     <h1>{{ title }}</h1>
     <main>
-      {# <aside>
+      <aside>
         {% if description | length %}<div class="description">{{ description | safe }}</div>{% endif %}
         {% if collaborators | length %}<div class="collaborators">with {{ collaborators | safe }}</div>{% endif %}
-      </aside> #}
+      </aside>
       <section class="gallery">
-        {# {% if gallery | length %}<section class="gallery">{{ gallery }}</section>{% endif %} #}
-
         {% if gallery | length %}<section class="gallery">{{ gallery | markdown | safe }}</section>{% endif %}
       </section>
     </main>
 
+    {% include "footer.njk" %}
   </body>
 </html>

@@ -1,9 +1,51 @@
 :root {
     --white: #ffffff;
     --black: #000000;
+    --light-grey: #e8ede8;
+    --dark-grey: #d7dbd7;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 12px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    scroll-behavior: smooth;
+    background-color: var(--white);
+}
+main {
+    min-height: 100vh;
+}
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    padding: 10px 0 50px;
+}
+header a {
+    margin: 0 8px 0 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--light-grey);
+}
+header a:hover {
+    background-color: var(--dark-grey);
+}
+
+
 
 img {
     width: 200px;
     height: auto;
+}
+
+footer span {
+    padding-right: 20px;
 }
