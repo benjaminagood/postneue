@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 12px;
+
+}
+
+header p {
+    padding: 12px;
+    opacity: .25;
+}
+
+.title, .description, .collaborators {
+    opacity: 1;
+}
+
+
+main img {
+    width: 100%;
+}

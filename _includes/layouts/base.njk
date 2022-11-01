@@ -22,7 +22,9 @@
       <ul>
         {%- for project in collections.projects | reverse -%}
             <li>
-                <a href="{{ project.url | url }}">{{ project.data.title }}</a>
+                <a href="{{ project.url | url }}">
+                    {{ project.data.featuredImage | markdown | safe }}
+                </a>
             </li>
         {%- endfor -%}
       </ul>
