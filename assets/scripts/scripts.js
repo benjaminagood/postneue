@@ -10,7 +10,7 @@ $("header a").click(function(){
   //   // $("body").css("background-color", value);
   // });
 
-//   $("li").hover(function() {
-//     var newColor = $(this).data("bgcolor");
-//     $("body").css("background-color", newColor);
-// })	
+  $("li").hover(function() {
+    var newColor = $(this).data("bgcolor");
+    $("body").css("background-color", newColor);
+})	
