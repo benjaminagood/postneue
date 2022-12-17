@@ -16,6 +16,8 @@ collections:
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Date", name: "date", widget: "datetime", default: "", required: true }
       - { label: "Collaborators", name: "collaborators", widget: "string", required: false }
+      - { label: "Instructor", name: "instructor", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "markdown", required: false }
+      - { label: 'Color', name: 'color', widget: 'color' }
       - { label: "Featured Image", name: "featuredImage", widget: "markdown", required: true }
       - { label: "Gallery", name: "gallery", widget: "markdown", required: false }
