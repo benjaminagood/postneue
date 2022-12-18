@@ -21,7 +21,7 @@
     <main>
       <ul>
         {%- for project in collections.projects | reverse -%}
-            <li data-bgcolor="{{ project.data.color }}">
+            <li>
                 <a href="{{ project.url | url }}">
                     {{ project.data.featuredImage | markdown | safe }}
                 </a>

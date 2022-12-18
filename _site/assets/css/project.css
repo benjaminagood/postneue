@@ -3,7 +3,7 @@ body {
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 6fr;
     gap: 12px;
 
 }
@@ -13,11 +13,11 @@ header p {
     opacity: .25;
 }
 
-.title, .description, .collaborators {
+.title, .date, .description {
     opacity: 1;
 }
 
 
 main img {
-    width: 100%;
+    max-width: 500px;
 }
