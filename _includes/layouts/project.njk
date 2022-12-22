@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="/assets/css/project.css">
 </head>
   <body class="project">
-    <div id="featured">{{ featuredImage | markdown | safe }}</div>
     
-    <header>
+    {# <header>
       <p>title</p>
       <p>date</p>
       <p>description</p>
       <p class="title">{{ title }}</p>
       <p class="date">{{ date.getFullYear().toString() | safe }}</p>
       <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
-    </header>
+    </header> #}
 
     <main>
       <section class="gallery">
-        {% if gallery | length %}<section class="gallery">{{ gallery | markdown | safe }}</section>{% endif %}
+        {% if gallery | length %}{{ gallery | markdown | safe }}{% endif %}
       </section>
     </main>
 
