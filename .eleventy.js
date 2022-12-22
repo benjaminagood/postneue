@@ -10,7 +10,7 @@ var implicitFigures = require('markdown-it-implicit-figures');
 md.use(implicitFigures, {
   dataType: false,  // <figure data-type="image">, default: false
   figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
-  tabindex: true, // <figure tabindex="1+n">..., default: false
+  tabindex: false, // <figure tabindex="1+n">..., default: false
   link: false // <a href="img.png"><img src="img.png"></a>, default: false
 });
 

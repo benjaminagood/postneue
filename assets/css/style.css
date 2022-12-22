@@ -2,7 +2,7 @@
     --white: #ffffff;
     --black: #000000;
     --light-grey: #e8ede8;
-    --dark-grey: #d7dbd7;
+    --dark-grey: #7a7d7b;
     --salmon: salmon;
 }
 *, *::before, *::after {
@@ -18,6 +18,7 @@ body {
     letter-spacing: -0.1px;
     scroll-behavior: smooth;
     background-color: var(--white);
+    color: var(--dark-grey);
 }
 main {
     display: flex;
@@ -27,7 +28,9 @@ main {
 }
 a, a:visited {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
+    color: var(--dark-grey);
+
     cursor: pointer;
 }
 
@@ -105,7 +108,7 @@ img {
     align-items: center;
     width: 16px;
     height: 16px;
-    border: 1px solid black;
+    border: 1px solid var(--dark-grey);
     border-radius: 50%;
     /* font-family: serif; */
     text-align: center;
@@ -142,7 +145,7 @@ img {
     align-items: center;
     width: 16px;
     height: 16px;
-    border: 1px solid black;
+    border: 1px solid var(--dark-grey);
     border-radius: 50%;
     text-align: center;
     z-index: 1001;
