@@ -11,7 +11,6 @@
     padding: 0;
 }
 body {
-    /* padding: 12px; */
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -33,7 +32,7 @@ a, a:visited {
 }
 
 header {
-    display: none;
+    /* display: none; */
     padding: 10px 0 50px;
     /* opacity: 0.5; */
 }
@@ -41,7 +40,6 @@ header a {
     margin: 0 8px 0 0;
     padding: 8px;
     border-radius: 4px;
-    background-color: var(--white);
 }
 #about {
     margin: 0 8px 0 0;
@@ -60,10 +58,12 @@ ul {
     display: -ms-grid; /* IE 10 */
     display: grid; /* None yet */
     grid-template-columns: repeat(3, 1fr);
-    gap: 72px 36px;
+    gap: 72px;
     padding: 72px;
     width: 100%;
+    max-width: 800px;
     list-style: none;
+    justify-content: space-around;
 }
 li {
     width: 100%;
@@ -86,36 +86,63 @@ img {
     max-height: 200px;
     object-fit: contain;
     background-color: var(--light-grey);
-
-}
-figure:hover figcaption {
-    visibility: visible;
 }
 
 
 
 
-.info {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
+.infobttn {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
     border: 1px solid black;
     border-radius: 50%;
     /* font-family: serif; */
     text-align: center;
 }
-.active .info {
-    color: green;
-    border-color: green;
-}
 .infobox {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: none;
-    color: green;
-
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--light-grey);
+}
+.infobox p {
+    width: 300px;
+    text-align: left;
+}
+.info {
+    margin-bottom: 36px;
+    font-size: 1.25rem;
+}
+.closebttn {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: super;
 }
 
 @media screen and (max-width: 800px) {
     ul {
-        grid-template-columns: repeat(2, 1fr);
+        max-width: 400px;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -1,6 +1,9 @@
-$("header a").click(function(){
-    $(this).toggleClass( "active" );
-    $(".infobox").toggle();
+$(".infobttn").click(function(){
+    $(".infobox").css("display", "flex");
+  });
+
+$(".closebttn").click(function(){
+     $(".infobox").css("display", "none");
   });
 
 
@@ -9,14 +12,14 @@ $("header a").click(function(){
 
     var nextSlide = $(this).next();
 
-    $(this).css("display", "none");
+    $(this).css("visibility", "hidden");
 
     if( nextSlide.length == 0 ) {
          // nextSlide = $(this).prevAll('.slide').last();
-         $(".gallery figure").first().css("display", "block");
+         $(".gallery figure").first().css("visibility", "visible");
 
      }
     else {
-         $(this).next().css("display", "block");
+         $(this).next().css("visibility", "visible");
     }
     });

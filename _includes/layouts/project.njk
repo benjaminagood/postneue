@@ -9,17 +9,15 @@
 </head>
   <body class="project">
     
-    {# <header>
-      <p>title</p>
-      <p>date</p>
-      <p>description</p>
-      <p class="title">{{ title }}</p>
-      <p class="date">{{ date.getFullYear().toString() | safe }}</p>
-      <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
-    </header> #}
 
     <main>
       <section class="gallery">
+        <figure>
+          <p class="title">{{ title }}</p>
+          <p class="date">{{ date.getFullYear().toString() | safe }}</p>
+          <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
+
+        </figure>
         {% if gallery | length %}{{ gallery | markdown | safe }}{% endif %}
       </section>
     </main>
