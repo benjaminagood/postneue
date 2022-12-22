@@ -9,6 +9,8 @@ figure {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursortwo.png), auto;
+
 }
 figure:first-of-type {
     display: flex;
