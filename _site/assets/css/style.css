@@ -35,8 +35,12 @@ a, a:visited {
 }
 
 header {
+    position: absolute;
+    z-index: 999999999999;
+    width: 100vw;
+    text-align: center;
     /* display: none; */
-    padding: 10px 0 50px;
+    /* padding: 10px 0 50px; */
     /* opacity: 0.5; */
 }
 header a {

@@ -9,14 +9,17 @@
 </head>
   <body class="project">
     
-
+    <header>
+      <a class="backbttn" href="/"><</a>
+    </header>
     <main>
+      <button class="prev"></button>
+      <button class="next"></button>
       <section class="gallery">
         <figure>
           <p class="title">{{ title }}</p>
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
           <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
-
         </figure>
         {% if gallery | length %}{{ gallery | markdown | safe }}{% endif %}
       </section>

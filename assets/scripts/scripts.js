@@ -6,69 +6,67 @@ $(".closebttn").click(function(){
      $(".infobox").css("display", "none");
   });
 
-
-
+  
 // $( ".gallery figure" ).click(function() {
 
 //      var nextSlide = $(this).next();
 
-//     $(this).css("visibility", "hidden");
+//      $(this).fadeOut();
 
 //      if( nextSlide.length == 0 ) {
-//          $(".gallery figure").first().css("visibility", "visible");
+//           $(".gallery figure").first().fadeIn();
 //      }
 //      else {
-//          $(this).next().css("visibility", "visible");
+//           $(this).next().fadeIn();
 //      }
 // });
 
 
-// $( ".gallery figure" ).click(function() {
+ 
 
-//      var nextSlide = $(this).next();
+$( ".prev" ).on("click", function() {
 
-//      $(this).css({
-//           opacity          : 0,
-//           WebkitTransition : 'opacity 1s ease-in-out',
-//           MozTransition    : 'opacity 1s ease-in-out',
-//           MsTransition     : 'opacity 1s ease-in-out',
-//           OTransition      : 'opacity 1s ease-in-out',
-//           transition       : 'opacity 1s ease-in-out'
-//      });
+     var $this = $(this);
 
-//      if( nextSlide.length == 0 ) {
-//          $(".gallery figure").first().css({
-//                opacity          : 1,
-//                WebkitTransition : 'opacity 1s ease-in-out',
-//                MozTransition    : 'opacity 1s ease-in-out',
-//                MsTransition     : 'opacity 1s ease-in-out',
-//                OTransition      : 'opacity 1s ease-in-out',
-//                transition       : 'opacity 1s ease-in-out'
-//      });
-//      }
-//      else {
-//          $(this).next().css({
-//                opacity          : 1,
-//                WebkitTransition : 'opacity 1s ease-in-out',
-//                MozTransition    : 'opacity 1s ease-in-out',
-//                MsTransition     : 'opacity 1s ease-in-out',
-//                OTransition      : 'opacity 1s ease-in-out',
-//                transition       : 'opacity 1s ease-in-out'
-//      });
-//      }
-// });
+     $this.attr('disabled', true); 
 
+     var lastSlide = $(".gallery figure:visible").prev();
 
-$( ".gallery figure" ).click(function() {
+     $(".gallery figure:visible").fadeOut(250);
 
-     var nextSlide = $(this).next();
-
-     $(this).fadeOut();
-
-     if( nextSlide.length == 0 ) {
-          $(".gallery figure").first().fadeIn();
+     if( lastSlide.length == 0 ) {
+          $(".gallery figure").last().fadeIn(250);
      }
      else {
-          $(this).next().fadeIn();
+          $(".gallery figure:visible").prev().fadeIn(250);
      }
+
+     setTimeout(function() { 
+          $this.attr('disabled', false);
+      }, 260);
+
+ });
+
+
+$( ".next" ).click(function() {
+
+     var $this = $(this);
+
+     $this.attr('disabled', true); 
+
+     var nextSlide = $(".gallery figure:visible").next();
+
+     $(".gallery figure:visible").fadeOut(250);
+
+     if( nextSlide.length == 0 ) {
+          $(".gallery figure").first().fadeIn(250);
+     }
+     else {
+          $(".gallery figure:visible").next().fadeIn(250);
+     }
+
+     setTimeout(function() { 
+          $this.attr('disabled', false);
+      }, 260);
+
 });

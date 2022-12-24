@@ -1,6 +1,44 @@
 body {
     padding: 0;
 }
+.backbttn {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 50%;
+    /* font-family: serif; */
+    text-align: center;
+    z-index: 999;
+}
+main {
+    position: relative;
+}
+.prev {
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: pink;
+    opacity: .25;
+    z-index: 10000000;
+    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-1.svg), auto;
+}
+.next {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: blue;
+    opacity: .25;
+    z-index: 10000000;
+    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-r.svg), auto;
+}
 figure {
     display: none;
     /* opacity: 0; */
