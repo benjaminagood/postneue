@@ -12,32 +12,44 @@ body {
     height: 16px;
     border: 1px solid var(--dark-grey);
     border-radius: 50%;
-    /* font-family: serif; */
     text-align: center;
     z-index: 999;
+    font-weight: 300;
 }
+.title {
+    position: absolute;
+    top: 24px;
+    width: 100%;
+}
+
 main {
     position: relative;
+}
+button {
+    border: 0;
+    background-color: transparent;
 }
 .prev {
     position: absolute;
     left: 0;
     width: 50vw;
     height: 100vh;
-    background-color: pink;
-    opacity: .25;
-    z-index: 10000000;
-    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-1.svg), auto;
+    /* background-color: pink; */
+    /* opacity: .25; */
+    z-index: 999;
+    cursor: w-resize;
+    /* cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-03.png), w-resize; */
 }
 .next {
     position: absolute;
     right: 0;
     width: 50vw;
     height: 100vh;
-    background-color: blue;
-    opacity: .25;
-    z-index: 10000000;
-    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-r.svg), auto;
+    /* background-color: blue; */
+    /* opacity: .25; */
+    z-index: 999;
+    cursor: e-resize;
+    /* cursor: url(https://a.benjamingood.net/assets/images/uploads/cursor-04.png), e-resize; */
 }
 figure {
     display: none;
@@ -47,7 +59,6 @@ figure {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    cursor: url(https://a.benjamingood.net/assets/images/uploads/cursortwo.png), auto;
 
 }
 figure:first-of-type {
@@ -66,4 +77,18 @@ figcaption {
     bottom: 24px;
     width: 100%;
     text-align: center;
+}
+
+.date {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+.description {
+    /* padding: 24px; */
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* border-radius: 8px;
+    background-color: var(--light-grey); */
 }

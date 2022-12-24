@@ -10,14 +10,14 @@
   <body class="project">
     
     <header>
-      <a class="backbttn" href="/"><</a>
+      <a class="backbttn" href="/">&#8592;</a>
+      <p class="title">{{ title }}</p>
     </header>
     <main>
       <button class="prev"></button>
       <button class="next"></button>
       <section class="gallery">
-        <figure>
-          <p class="title">{{ title }}</p>
+        <figure class="text">
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
           <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
         </figure>
