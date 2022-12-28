@@ -20,18 +20,6 @@ $(".closebttn").click(function(){
 //           $(this).next().fadeIn();
 //      }
 // });
-
-const images = document.getElementsByTagName("img");
-for (let image of images) {
-  image.addEventListener("load", fadeImg);
-  image.style.opacity = "0";
-}
-
-function fadeImg () {
-  this.style.transition = "opacity 1s";
-  this.style.opacity = "1";
-}
-
  
 
 $( ".prev" ).on("click", function() {
