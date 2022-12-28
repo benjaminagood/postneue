@@ -45,13 +45,13 @@ ul {
     gap: 72px;
     padding: 72px;
     width: 100%;
-    max-width: 800px;
+    /* max-width: 800px; */
     list-style: none;
     justify-content: space-around;
 }
 li {
     width: 100%;
-    height: 200px;    
+    height: 300px;    
 }
 figure {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -66,8 +66,8 @@ figure {
     height: 100%;
 }
 img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: contain;
     /* background-color: var(--light-grey); */
 }
@@ -133,9 +133,16 @@ img {
     font-weight: 200;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
+    ul {
+        max-width: 400px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
     ul {
         max-width: 400px;
         grid-template-columns: repeat(1, 1fr);
     }
-}
+} */
