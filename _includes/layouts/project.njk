@@ -19,7 +19,7 @@
       <section class="gallery">
         <figure class="text">
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
-          <p class="description">{% if description | length %}{{ description | safe }}{% endif %}</p>
+          <p class="description">{% if description | length %}{{ description | markdown | safe }}{% endif %}</p>
         </figure>
         {% if gallery | length %}{{ gallery | markdown | safe }}{% endif %}
       </section>
