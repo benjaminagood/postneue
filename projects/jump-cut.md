@@ -3,7 +3,10 @@ layout: layouts/project.njk
 title: Jump Cut
 date: 2022-10-31T04:00:00.000Z
 color: "#f5fbff"
-featuredImage: "![](/assets/images/uploads/jumpcut_page_1.png)"
+featuredImage: |-
+  ![](/assets/images/uploads/jumpcut_page_9.png)
+
+  ![](/assets/images/uploads/jumpcut_page_1.png)
 gallery: >-
   ![given sections → bars → placement on site → 70* rotation →
   plan](/assets/images/uploads/jumpcut_page_1.png)
@@ -25,4 +28,15 @@ gallery: >-
 
 
   ![Section c](/assets/images/uploads/jumpcut_page_7.png)
+
+
+  ![](/assets/images/uploads/jumpcut_page_8.png)
+
+
+
+
+  ![](/assets/images/uploads/jumpcut_page_10.png)
+
+
+  ![](/assets/images/uploads/jumpcut_page_11.png)
 ---
