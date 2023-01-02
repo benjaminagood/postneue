@@ -6,6 +6,8 @@ description: |-
   Using a discovered section cut of one object using
   descriptive geometry, invent a second that shares a second cut, but from a
   very different form.
+
+  with Mingxuan Wei
 featuredImage: "![](/assets/images/uploads/visrep2.jpeg)"
 gallery: |-
   ![](/assets/images/uploads/visrep1.png)
