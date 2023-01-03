@@ -11,7 +11,7 @@ gallery: >-
   ![](/assets/images/uploads/jumpcut_page_9.png)
 
 
-  ![given sections → bars → placement on site → 70* rotation → plan](/assets/images/uploads/jumpcut_page_1.png)
+  ![given sections → placement on site → 70* rotation → plan](/assets/images/uploads/jumpcut_page_1.png)
 
 
   ![Street Level](/assets/images/uploads/jumpcut_page_2.png)
