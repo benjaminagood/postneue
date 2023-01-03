@@ -8,8 +8,6 @@ featuredImage: |-
 
   ![]()
 gallery: >-
-  
-
   ![](/assets/images/uploads/jumpcut_page_9.png)
 
 
@@ -34,9 +32,10 @@ gallery: >-
   ![Section c](/assets/images/uploads/jumpcut_page_7.png)
 
 
+  ![Study Models](/assets/images/uploads/jumpcut-study-models.png)
+
+
   ![](/assets/images/uploads/jumpcut_page_8.png)
-
-
 
 
   ![](/assets/images/uploads/jumpcut_page_10.png)
