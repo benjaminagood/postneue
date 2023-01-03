@@ -3,10 +3,8 @@ layout: layouts/project.njk
 title: Jump Cut
 date: 2022-10-31T04:00:00.000Z
 color: "#f5fbff"
-featuredImage: |-
-  ![](/assets/images/uploads/jumpcut_page_9.png)
-
-  ![]()
+description: Jump Cut description
+featuredImage: "![](/assets/images/uploads/jumpcut_page_9.png)"
 gallery: >-
   ![](/assets/images/uploads/jumpcut_page_9.png)
 
@@ -33,6 +31,12 @@ gallery: >-
 
 
   ![Study Models](/assets/images/uploads/jumpcut-study-models.png)
+
+
+  ![](/assets/images/uploads/jumpcut-model1.png)
+
+
+  ![](/assets/images/uploads/jumpcut-model2.jpg)
 
 
   ![](/assets/images/uploads/jumpcut_page_8.png)
