@@ -15,15 +15,21 @@ gallery: |-
 
   ![](/assets/images/uploads/leland-diagrams_page_5.png)
 
-  ![](/assets/images/uploads/leland_page_1.png)
+  ![Existing Plan](/assets/images/uploads/leland_page_1.png)
 
-  ![](/assets/images/uploads/leland_page_2.png)
+  ![New Plan](/assets/images/uploads/leland_page_2.png)
 
-  ![](/assets/images/uploads/leland_page_3.png)
+  ![Existing Section a](/assets/images/uploads/leland_page_3.png)
 
-  ![](/assets/images/uploads/leland_page_4.png)
+  ![New Section a](/assets/images/uploads/leland_page_4.png)
 
-  ![](/assets/images/uploads/leland_page_5.png)
+  ![Existing Section b](/assets/images/uploads/leland_page_5.png)
 
-  ![](/assets/images/uploads/leland_page_6.png)
+  ![New Section b](/assets/images/uploads/leland_page_6.png)
+
+  ![](/assets/images/uploads/img_6332.jpeg)
+
+  ![](/assets/images/uploads/leland-photo1.jpeg)
+
+  ![](/assets/images/uploads/leland-photo2.jpeg)
 ---
