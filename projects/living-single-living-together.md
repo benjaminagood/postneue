@@ -9,7 +9,7 @@ description: |-
 
 
   guarantees views through house
-featuredImage: "![](/assets/images/uploads/living-single-living-together_page_1.jpg)"
+featuredImage: "![](/assets/images/uploads/livingalone-sketch2.jpg)"
 gallery: |-
   ![](/assets/images/uploads/livingalonelivingtogether_page_6.png)
 
