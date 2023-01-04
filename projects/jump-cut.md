@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Jump Cut
-date: 2022-10-31T04:00:00.000Z
+date: 2022-10-01T04:00:00.000Z
 color: "#f5fbff"
 description: >-
   Jump Cut description
