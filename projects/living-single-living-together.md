@@ -9,7 +9,7 @@ description: |-
 
 
   guarantees views through house
-featuredImage: "![](/assets/images/uploads/livingalone-sketch2.jpg)"
+featuredImage: "![](/assets/images/uploads/livingalone-studymodel.jpg)"
 gallery: >-
   ![given plan → centerlines → long and short grain →
   overlap](/assets/images/uploads/livingalonelivingtogether_page_6.png)
