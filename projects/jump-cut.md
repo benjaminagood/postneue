@@ -10,8 +10,7 @@ description: >-
   beginning with the passage choiseul: the enclosed space between two buildings. the two inner facades satisfy the separate sections and accomodate the overlaps.
 featuredImage: "![](/assets/images/uploads/jumpcut_page_9.png)"
 gallery: >-
-  ![](/assets/images/uploads/jumpcut_page_9.png)
-
+  
 
   ![given sections → placement on site → 70* rotation → plan](/assets/images/uploads/jumpcut_page_1.png)
 
@@ -50,4 +49,7 @@ gallery: >-
 
 
   ![](/assets/images/uploads/jumpcut_page_11.png)
+
+
+  ![](/assets/images/uploads/jumpcut_page_9.png)
 ---
