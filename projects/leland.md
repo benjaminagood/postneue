@@ -3,11 +3,7 @@ layout: layouts/project.njk
 title: Leland
 date: 2021-11-30T05:00:00.000Z
 color: "#fcfff6"
-description: This basement needed to become more pleasant. The building owner
-  wanted something that resembled a studio—without the hassles of plumbing—while
-  enclosing more of the available floorspace for occupation. Choice walls were
-  broken down and reoriented, and a forced-air heating system with a large shelf
-  above were installed.
+description: ""
 featuredImage: "![](/assets/images/uploads/leland-sketch1.jpeg)"
 gallery: |-
   ![](/assets/images/uploads/leland-diagrams_page_1.png)
