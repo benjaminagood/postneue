@@ -86,9 +86,9 @@ figcaption {
 }
 .description {
     /* padding: 24px; */
-    width: 300px;
-    text-align: justify;
-    text-justify: inter-word;
+    width: 400px;
+    /* text-align: justify;
+    text-justify: inter-word; */
     /* border-radius: 8px;
     background-color: var(--light-grey); */
 }

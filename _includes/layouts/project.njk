@@ -19,9 +19,9 @@
       <section class="gallery">
         <figure class="text">
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
-          <p class="description">{% if description | length %}{{ description | markdown | safe }}{% endif %}</p>
+          <div class="description">{{ description | markdown | safe }}</div>
         </figure>
-        {% if gallery | length %}{{ gallery | markdown | safe }}{% endif %}
+        {{ gallery | markdown | safe }}
       </section>
     </main>
 
