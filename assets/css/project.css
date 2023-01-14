@@ -92,3 +92,7 @@ figcaption {
     /* border-radius: 8px;
     background-color: var(--light-grey); */
 }
+hr {
+    margin: 12px 0; 
+    border: 0;
+}
