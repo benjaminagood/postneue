@@ -21,8 +21,6 @@ description: >-
   With Chang Hazel Gao
 
 
-
-
   Instructed by Ritchie Yao
 featuredImage: "![](/assets/images/uploads/ordinaryexcept-model2.jpg)"
 gallery: >-
