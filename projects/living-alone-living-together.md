@@ -3,12 +3,14 @@ layout: layouts/project.njk
 title: Living Alone, Living Together
 date: 2022-09-01T05:00:00.000Z
 color: "#c76565"
-description: |-
-  House for Two Gardeners
+description: >-
+  A duplex for two gardeners. On each level, views of the garden traverse
+  between opposite facades, changing direction from floor to floor. The middle,
+  shared level is a plant-nursery, a place of growth and cooperation. 
 
-  guarantees views through house
 
   ***
+
 
   Instructed by Ritchie Yao
 featuredImage: "![](/assets/images/uploads/livingalone-studymodel.jpg)"
