@@ -3,9 +3,21 @@ layout: layouts/project.njk
 title: Jump Cut
 date: 2022-10-01T04:00:00.000Z
 color: "#f5fbff"
-description: "beginning with the passage choiseul: the enclosed space between
-  two buildings. the two inner facades satisfy the separate sections and
-  accomodate the overlaps."
+description: >-
+  Jump cuts refer to the filmic technique of stitching together mismatched shots
+  of the same subject. 
+
+
+  - - -
+
+
+  Two given sections are coaxed into a coherent whole, suppressing the experiential difference between Loosian and Miesian cuts. Drawing from Walter Benjamin’s Arcades Project, the “building” designed is really an enclosed space between two neighbors—two thickened facades facing one another. 
+
+
+  - - -
+
+
+  Instructed by Ritchie Yao
 featuredImage: "![](/assets/images/uploads/jumpcut_page_9.png)"
 gallery: >-
   
