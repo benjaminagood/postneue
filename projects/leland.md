@@ -3,7 +3,10 @@ layout: layouts/project.njk
 title: Leland
 date: 2021-11-30T05:00:00.000Z
 color: "#fcfff6"
-description: ""
+description: A basement renovation in Chicago, Illinois. To enclose more of the
+  available floorspace for occupation, choice walls were broken down and
+  reoriented and a forced-air heating system with a large shelf above were
+  installed.
 featuredImage: "![](/assets/images/uploads/leland-sketch1.jpeg)"
 gallery: |-
   ![](/assets/images/uploads/leland-diagrams_page_1.png)
