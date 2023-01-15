@@ -107,7 +107,6 @@ img {
     width: 100vw;
     background-color: var(--light-grey);
     z-index: 1000;
-
 }
 .infobox p {
     width: 300px;
