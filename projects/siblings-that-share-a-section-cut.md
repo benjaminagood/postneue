@@ -11,6 +11,8 @@ description: >-
 
 
   with Mingxuan Wei
+
+  Instructed by Ted Baab
 featuredImage: "![](/assets/images/uploads/visrep2.jpeg)"
 gallery: |-
   ![](/assets/images/uploads/visrep1.png)
