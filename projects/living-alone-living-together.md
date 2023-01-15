@@ -6,9 +6,11 @@ color: "#c76565"
 description: |-
   House for Two Gardeners
 
-
-
   guarantees views through house
+
+  ***
+
+  Instructed by Ritchie Yao
 featuredImage: "![](/assets/images/uploads/livingalone-studymodel.jpg)"
 gallery: >-
   ![given plan → centerlines → long and short grain →
