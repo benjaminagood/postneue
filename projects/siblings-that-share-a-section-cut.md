@@ -2,12 +2,13 @@
 layout: layouts/project.njk
 title: Siblings that Share a Section Cut
 date: 2022-10-15T05:00:00.000Z
-description: |-
-  Using a discovered section cut of one object using
-  descriptive geometry, invent a second that shares a second cut, but from a
-  very different form.
+description: >-
+  Using descriptive geometry, a discovered section cut in a found aluminum
+  extrusion was used to produce a conjoined sibling.
+
 
   ***
+
 
   with Mingxuan Wei
 featuredImage: "![](/assets/images/uploads/visrep2.jpeg)"
