@@ -11,7 +11,7 @@ description: >-
   - - -
 
 
-  Two given sections are coaxed into a coherent whole, suppressing the experiential difference between Loosian and Miesian cuts. Drawing from Walter Benjamin’s Arcades Project, the “building” designed is really an enclosed space between two neighbors—two thickened facades facing one another. 
+  Two given sections are coaxed into a coherent whole, suppressing the experiential difference between Loosian and Miesian cuts. Drawing from Walter Benjamin’s *Arcades Project*, the *building* designed is really an enclosed space between two neighbors—two thickened facades facing one another. 
 
 
   - - -
