@@ -3,11 +3,9 @@ layout: layouts/project.njk
 title: Jump Cut
 date: 2022-10-01T04:00:00.000Z
 color: "#f5fbff"
-description: >-
-  Jump Cut description
-
-
-  beginning with the passage choiseul: the enclosed space between two buildings. the two inner facades satisfy the separate sections and accomodate the overlaps.
+description: "beginning with the passage choiseul: the enclosed space between
+  two buildings. the two inner facades satisfy the separate sections and
+  accomodate the overlaps."
 featuredImage: "![](/assets/images/uploads/jumpcut_page_9.png)"
 gallery: >-
   
