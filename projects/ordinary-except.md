@@ -19,7 +19,7 @@ description: >-
   ***
 
 
-  With Chang Hazel Gao
+  with Chang Hazel Gao
 
 
   Instructed by Ritchie Yao
