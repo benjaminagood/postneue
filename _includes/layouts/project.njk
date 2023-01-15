@@ -20,6 +20,7 @@
         <figure class="text">
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
           <div class="description">{{ description | markdown | safe }}</div>
+          
         </figure>
         {{ gallery | markdown | safe }}
       </section>
