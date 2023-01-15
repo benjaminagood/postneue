@@ -7,7 +7,7 @@ description: |-
   descriptive geometry, invent a second that shares a second cut, but from a
   very different form.
 
-
+  ***
 
   with Mingxuan Wei
 featuredImage: "![](/assets/images/uploads/visrep2.jpeg)"
