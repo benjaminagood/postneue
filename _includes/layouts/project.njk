@@ -19,8 +19,10 @@
       <section class="gallery">
         <figure class="text">
           <p class="date">{{ date.getFullYear().toString() | safe }}</p>
+          <p class="larrow">&#9666;</p>
           <div class="description">{{ description | markdown | safe }}</div>
-          
+          <p class="rarrow">&#9656;</p>
+          <p class="darrow">&#9662;</p>
         </figure>
         {{ gallery | markdown | safe }}
       </section>
