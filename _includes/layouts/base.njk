@@ -9,18 +9,15 @@
   <body class="base">
 
     <header>
-      <a class="infobttn">i</a>
-      <p class="branding">benjamin good</p>
-      <div class="infobox">
-        <a class="closebttn">&#x2715;</a>
-        <p class="info">Benjamin Good is a Master of Architecture candidate at the Harvard Graduate School of Design. He obtained his Bachelors in Art History from UC Berkeley.<br><br>CV and PDF portfolio available upon request</p>
-        <p>benjamingood@gsd.harvard.edu</p>
-        <p>+1 312 404 9583</p>
-      </div>
+      <p>benjamingood@gsd.harvard.edu</p>
+      <p>+1 312 404 9583</p>
+      <br>
+      <p>Benjamin Good is a Master of Architecture candidate at the Harvard Graduate School of Design. He obtained his Bachelors in Art History from UC Berkeley.<br><br>CV and PDF portfolio available upon request</p>
+
     </header>
 
-    <main>
-      <ul>
+    <main> 
+      {# <ul>
         {%- for project in collections.projects | reverse -%}
             <li>
                 <a href="{{ project.url | url }}">
@@ -28,7 +25,7 @@
                 </a>
             </li>
         {%- endfor -%}
-      </ul>
+      </ul> #}
     </main>
 
 

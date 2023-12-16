@@ -135,7 +135,7 @@ hr {
     }
     figcaption {
         position: static;
-        padding: 12px 0 0;
+        padding: 12px 24px 0;
     }
     img {
         padding: 0 24px;
