@@ -1,13 +1,3 @@
-$(".infobttn").click(function(){
-    $(".infobox").css("display", "flex");
-    $("body").css("overflow", "hidden");
-  });
-
-$(".closebttn").click(function(){
-     $(".infobox").css("display", "none");
-     $("body").css("overflow", "visible");
-  });
-
   
 // $( ".gallery figure" ).click(function() {
 

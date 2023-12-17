@@ -10,15 +10,6 @@
     margin: 0;
     padding: 0;
 }
-html {
-    background-image: url("../images/uploads/carport-model4.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
@@ -26,61 +17,61 @@ body {
     line-height: 1.2;
     letter-spacing: 1px;
     scroll-behavior: smooth;
-    color: black;
-    height: 100vh;
-
+    color: var(--black);
+    position: relative;
 }
 a, a:visited {
+    width: max-content;
+    color: var(--black);
     text-decoration: none;
-    color: var(--dark-grey);
     cursor: pointer;
 }
-header {
-    padding: 10px;
-    width: 400px;
+a:hover {
+    color: var(--dark-grey);
 }
-/* ul {
-    display: -ms-grid;
+nav {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100%;
+}
+ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 72px;
-    padding: 72px;
-    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
-    justify-content: space-around;
 }
-li {
-    width: 100%;
-    height: 300px;    
+nav p {
+    padding-bottom: 10px;
 }
-figure {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+.branding {
+    padding-bottom: 10px;
+
+}
+h1 {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+figure {
+    width: 400px;
 }
 img {
-    max-width: 300px;
-    max-height: 300px;
-    object-fit: contain;
-    image-rendering: high-quality;
+    width: 100%;
+    height: auto;
 }
 
-
-@media screen and (max-width: 1000px) {
-    ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+footer {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
-
-@media screen and (max-width: 700px) {
-    ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
-} */
