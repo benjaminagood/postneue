@@ -1,3 +1,5 @@
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 $(".infobttn").click(function(){
     $(".infobox").css("display", "flex");
     $("body").css("overflow", "hidden");
