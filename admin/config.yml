@@ -13,7 +13,7 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/artist.njk" }
-      - { label: "Name", name: "name", widget: "string", required: true }
+      - { label: "Artist", name: "artist", widget: "string", required: true }
       - { label: "CV", name: "cv", widget: "file", required: false }
       - { label: "Featured Image", name: "featuredImage", widget: "markdown", required: true }
       - { label: "Gallery", name: "gallery", widget: "markdown", required: false }
