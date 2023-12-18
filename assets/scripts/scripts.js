@@ -1,16 +1,6 @@
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+// document.getElementById("year").innerHTML = new Date().getFullYear();
 
-
-$(".infobttn").click(function(){
-    $(".infobox").css("display", "flex");
-    $("body").css("overflow", "hidden");
-  });
-
-$(".closebttn").click(function(){
-     $(".infobox").css("display", "none");
-     $("body").css("overflow", "visible");
-  });
 
   
 // $( ".gallery figure" ).click(function() {
@@ -28,49 +18,49 @@ $(".closebttn").click(function(){
 // });
  
 
-$( ".prev" ).on("click", function() {
+// $( ".prev" ).on("click", function() {
 
-     var $this = $(this);
+//      var $this = $(this);
 
-     $this.attr('disabled', true); 
+//      $this.attr('disabled', true); 
 
-     var lastSlide = $(".gallery figure:visible").prev();
+//      var lastSlide = $(".gallery figure:visible").prev();
 
-     $(".gallery figure:visible").fadeOut(250);
+//      $(".gallery figure:visible").fadeOut(250);
 
-     if( lastSlide.length == 0 ) {
-          $(".gallery figure").last().fadeIn(250);
-     }
-     else {
-          $(".gallery figure:visible").prev().fadeIn(250);
-     }
+//      if( lastSlide.length == 0 ) {
+//           $(".gallery figure").last().fadeIn(250);
+//      }
+//      else {
+//           $(".gallery figure:visible").prev().fadeIn(250);
+//      }
 
-     setTimeout(function() { 
-          $this.attr('disabled', false);
-      }, 260);
+//      setTimeout(function() { 
+//           $this.attr('disabled', false);
+//       }, 260);
 
- });
+//  });
 
 
-$( ".next" ).click(function() {
+// $( ".next" ).click(function() {
 
-     var $this = $(this);
+//      var $this = $(this);
 
-     $this.attr('disabled', true); 
+//      $this.attr('disabled', true); 
 
-     var nextSlide = $(".gallery figure:visible").next();
+//      var nextSlide = $(".gallery figure:visible").next();
 
-     $(".gallery figure:visible").fadeOut(250);
+//      $(".gallery figure:visible").fadeOut(250);
 
-     if( nextSlide.length == 0 ) {
-          $(".gallery figure").first().fadeIn(250);
-     }
-     else {
-          $(".gallery figure:visible").next().fadeIn(250);
-     }
+//      if( nextSlide.length == 0 ) {
+//           $(".gallery figure").first().fadeIn(250);
+//      }
+//      else {
+//           $(".gallery figure:visible").next().fadeIn(250);
+//      }
 
-     setTimeout(function() { 
-          $this.attr('disabled', false);
-      }, 260);
+//      setTimeout(function() { 
+//           $this.attr('disabled', false);
+//       }, 260);
 
-});
+// });
