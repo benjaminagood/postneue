@@ -6,13 +6,13 @@ media_folder: "_site/assets/images/uploads"
 public_folder: "/assets/images/uploads" 
 
 collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "projects"
+  - name: "artists"
+    label: "Artists"
+    folder: "artists"
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/project.njk" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/artist.njk" }
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Date", name: "date", widget: "datetime", default: "", required: true }
       - { label: "Description", name: "description", widget: "markdown", required: false }

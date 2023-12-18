@@ -1,3 +1,7 @@
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
 $(".infobttn").click(function(){
     $(".infobox").css("display", "flex");
     $("body").css("overflow", "hidden");

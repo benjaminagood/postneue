@@ -1,4 +1,6 @@
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 
 $(".infobttn").click(function(){
     $(".infobox").css("display", "flex");
